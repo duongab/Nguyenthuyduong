@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "tinhtong";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>tinhtong</h2>
+@using (Html.BeginForm())
+
+{
+<label>Nhập  n </label>
+<input type="text" name="msN"  />
+<input type="submit"  value="tinhtong" />
+}
+
+@ViewBag.message

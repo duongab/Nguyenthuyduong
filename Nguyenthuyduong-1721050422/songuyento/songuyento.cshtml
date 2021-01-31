@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "songuyento";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>songuyento</h2>
+@using (Html.BeginForm())
+
+{
+
+<label for="text1"> Nhập số đầu dãy </label>
+<input type="text" name="text1" />
+<br />
+<label for="text2">nhập số cuối dãy </label>
+<input type="text" name="text2" />
+<br />
+    <input type="button" name="Find  " />
+            }
+            @ViewBag.message

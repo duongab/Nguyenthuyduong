@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "PTBac2";
+
+}
+
+<h2>PTBac2</h2>
+
+@using (Html.BeginForm())
+{
+
+    <label>Nhap gia tri a:</label>
+    <input type="text" name="hesoA" value="" />
+    <br />
+    <label>Nhap gia tri b:</label>
+    <input type="text" name="hesoB" value="" />
+    <br />
+    <label>Nhap gia tri c:</label>
+    <input type="text" name="hesoC" value="" />
+    <br />
+    <label>Hiển thị đáp án :</label>
+    <input type="text" name="dapan" value="" />
+    <input type="button" value="Giải " />
+}
+@ViewBag.Message
+<br />
+Đáp án: @ViewBag.dapan 
